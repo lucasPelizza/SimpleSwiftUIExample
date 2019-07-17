@@ -13,6 +13,20 @@
 		A0CDF53422DF99E9004C316F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF53322DF99E9004C316F /* Assets.xcassets */; };
 		A0CDF53722DF99E9004C316F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF53622DF99E9004C316F /* Preview Assets.xcassets */; };
 		A0CDF53A22DF99E9004C316F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF53822DF99E9004C316F /* LaunchScreen.storyboard */; };
+		A0CDF54322DF9AD1004C316F /* ligas.json in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54222DF9AD1004C316F /* ligas.json */; };
+		A0CDF55122DF9ADA004C316F /* sanAntonio.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54422DF9AD9004C316F /* sanAntonio.png */; };
+		A0CDF55222DF9ADA004C316F /* memphis.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54522DF9AD9004C316F /* memphis.png */; };
+		A0CDF55322DF9ADA004C316F /* diallo.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54622DF9AD9004C316F /* diallo.png */; };
+		A0CDF55422DF9ADA004C316F /* derozan.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54722DF9AD9004C316F /* derozan.png */; };
+		A0CDF55522DF9ADA004C316F /* houstonRockets.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54822DF9AD9004C316F /* houstonRockets.png */; };
+		A0CDF55622DF9ADA004C316F /* brooks.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54922DF9AD9004C316F /* brooks.png */; };
+		A0CDF55722DF9ADA004C316F /* goldenState.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54A22DF9AD9004C316F /* goldenState.png */; };
+		A0CDF55822DF9ADA004C316F /* clark.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54B22DF9AD9004C316F /* clark.png */; };
+		A0CDF55922DF9ADA004C316F /* evans.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54C22DF9AD9004C316F /* evans.png */; };
+		A0CDF55A22DF9ADA004C316F /* curry.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54D22DF9AD9004C316F /* curry.png */; };
+		A0CDF55B22DF9ADA004C316F /* anderson.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54E22DF9ADA004C316F /* anderson.png */; };
+		A0CDF55C22DF9ADA004C316F /* newOrleans.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54F22DF9ADA004C316F /* newOrleans.png */; };
+		A0CDF55D22DF9ADA004C316F /* forbes.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF55022DF9ADA004C316F /* forbes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		A0CDF53622DF99E9004C316F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0CDF53922DF99E9004C316F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0CDF53B22DF99E9004C316F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CDF54222DF9AD1004C316F /* ligas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ligas.json; sourceTree = "<group>"; };
+		A0CDF54422DF9AD9004C316F /* sanAntonio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanAntonio.png; sourceTree = "<group>"; };
+		A0CDF54522DF9AD9004C316F /* memphis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memphis.png; sourceTree = "<group>"; };
+		A0CDF54622DF9AD9004C316F /* diallo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diallo.png; sourceTree = "<group>"; };
+		A0CDF54722DF9AD9004C316F /* derozan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derozan.png; sourceTree = "<group>"; };
+		A0CDF54822DF9AD9004C316F /* houstonRockets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houstonRockets.png; sourceTree = "<group>"; };
+		A0CDF54922DF9AD9004C316F /* brooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brooks.png; sourceTree = "<group>"; };
+		A0CDF54A22DF9AD9004C316F /* goldenState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldenState.png; sourceTree = "<group>"; };
+		A0CDF54B22DF9AD9004C316F /* clark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clark.png; sourceTree = "<group>"; };
+		A0CDF54C22DF9AD9004C316F /* evans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evans.png; sourceTree = "<group>"; };
+		A0CDF54D22DF9AD9004C316F /* curry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curry.png; sourceTree = "<group>"; };
+		A0CDF54E22DF9ADA004C316F /* anderson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anderson.png; sourceTree = "<group>"; };
+		A0CDF54F22DF9ADA004C316F /* newOrleans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newOrleans.png; sourceTree = "<group>"; };
+		A0CDF55022DF9ADA004C316F /* forbes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forbes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 		A0CDF52C22DF99E5004C316F /* Basket */ = {
 			isa = PBXGroup;
 			children = (
+				A0CDF54122DF9A7D004C316F /* Resources */,
 				A0CDF52D22DF99E5004C316F /* AppDelegate.swift */,
 				A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */,
 				A0CDF53122DF99E5004C316F /* ContentView.swift */,
@@ -73,6 +102,27 @@
 				A0CDF53622DF99E9004C316F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0CDF54122DF9A7D004C316F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0CDF54222DF9AD1004C316F /* ligas.json */,
+				A0CDF54E22DF9ADA004C316F /* anderson.png */,
+				A0CDF54922DF9AD9004C316F /* brooks.png */,
+				A0CDF54B22DF9AD9004C316F /* clark.png */,
+				A0CDF54D22DF9AD9004C316F /* curry.png */,
+				A0CDF54722DF9AD9004C316F /* derozan.png */,
+				A0CDF54622DF9AD9004C316F /* diallo.png */,
+				A0CDF54C22DF9AD9004C316F /* evans.png */,
+				A0CDF55022DF9ADA004C316F /* forbes.png */,
+				A0CDF54A22DF9AD9004C316F /* goldenState.png */,
+				A0CDF54822DF9AD9004C316F /* houstonRockets.png */,
+				A0CDF54522DF9AD9004C316F /* memphis.png */,
+				A0CDF54F22DF9ADA004C316F /* newOrleans.png */,
+				A0CDF54422DF9AD9004C316F /* sanAntonio.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +183,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CDF55322DF9ADA004C316F /* diallo.png in Resources */,
+				A0CDF55D22DF9ADA004C316F /* forbes.png in Resources */,
+				A0CDF55A22DF9ADA004C316F /* curry.png in Resources */,
+				A0CDF55722DF9ADA004C316F /* goldenState.png in Resources */,
+				A0CDF55B22DF9ADA004C316F /* anderson.png in Resources */,
+				A0CDF55422DF9ADA004C316F /* derozan.png in Resources */,
 				A0CDF53A22DF99E9004C316F /* LaunchScreen.storyboard in Resources */,
+				A0CDF55122DF9ADA004C316F /* sanAntonio.png in Resources */,
 				A0CDF53722DF99E9004C316F /* Preview Assets.xcassets in Resources */,
+				A0CDF55922DF9ADA004C316F /* evans.png in Resources */,
+				A0CDF55622DF9ADA004C316F /* brooks.png in Resources */,
+				A0CDF55522DF9ADA004C316F /* houstonRockets.png in Resources */,
+				A0CDF55222DF9ADA004C316F /* memphis.png in Resources */,
+				A0CDF55822DF9ADA004C316F /* clark.png in Resources */,
+				A0CDF54322DF9AD1004C316F /* ligas.json in Resources */,
 				A0CDF53422DF99E9004C316F /* Assets.xcassets in Resources */,
+				A0CDF55C22DF9ADA004C316F /* newOrleans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
