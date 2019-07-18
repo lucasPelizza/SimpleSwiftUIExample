@@ -1,0 +1,460 @@
+[
+    {
+        "identifier":787,
+        "name":"NBA",
+        "country":"🇺🇸",
+        "teams":[
+            {
+                "standing_place":"1",
+                "standing_place_type":"Promotion - NBA (Play Offs)",
+                "name":"Houston Rockets",
+                "standing_P":"82",
+                "standing_W":"53",
+                "standing_L":"29",
+                "standing_F":"9341",
+                "standing_A":"8950",
+                "standing_PCT":"0.646",
+                "identifier":66,
+                "league_identifier":"787",
+                "league_season":"2018/2019",
+                "league_round":"Southwest Division",
+                "standing_updated":"2019-04-11 04:21:56",
+                "logo":"houstonRockets.png",
+                "players":[
+                    {
+                        "name":"Chris Chiozza",
+                        "weight":79,
+                        "height":183,
+                        "country":"🇺🇸",
+                        "position":"Guard"
+                    },
+                    {
+                        "name":"James Harden",
+                        "weight":99,
+                        "height":196,
+                        "country":"🇺🇸",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"2",
+                "standing_place_type":"Promotion - NBA (Play Offs)",
+                "name":"San Antonio Spurs",
+                "standing_P":"82",
+                "standing_W":"48",
+                "standing_L":"34",
+                "standing_F":"9156",
+                "standing_A":"9018",
+                "standing_PCT":"0.585",
+                "identifier":72,
+                "league_identifier":"787",
+                "league_season":"2018/2019",
+                "league_round":"Southwest Division",
+                "logo":"sanAntonio.png",
+                "standing_updated":"2019-04-11 04:21:56",
+                "players":[
+                    {
+                        "name":"Bryan Forbes",
+                        "weight":86,
+                        "height":190,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"forbes.png"
+                    },
+                    {
+                        "name":"DeMar DeRozan",
+                        "weight":100,
+                        "height":201,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"derozan.png"
+                    }
+                ]
+            },
+            {
+                "standing_place":"3",
+                "standing_place_type":"",
+                "name":"New Orleans Pelicans",
+                "standing_P":"82",
+                "standing_W":"33",
+                "standing_L":"49",
+                "standing_F":"9466",
+                "standing_A":"9575",
+                "standing_PCT":"0.402",
+                "identifier":69,
+                "league_identifier":"787",
+                "league_season":"2018/2019",
+                "league_round":"Southwest Division",
+                "logo":"newOrleans.png",
+                "standing_updated":"2019-04-11 04:21:57",
+                "players":[
+                    {
+                        "name":"Ian Clark",
+                        "weight":80,
+                        "height":190,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"clark.png"
+                    },
+                    {
+                        "name":"Cheick Diallo",
+                        "weight":99,
+                        "height":196,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"diallo.png"
+                    }
+                ]
+            },
+            {
+                "standing_place":"4",
+                "standing_place_type":"",
+                "name":"Memphis Grizzlies",
+                "standing_P":"82",
+                "standing_W":"33",
+                "standing_L":"49",
+                "standing_F":"8490",
+                "standing_A":"8703",
+                "standing_PCT":"0.402",
+                "identifier":80,
+                "league_identifier":"787",
+                "league_season":"2018/2019",
+                "league_round":"Southwest Division",
+                "logo":"memphis.png",
+                "standing_updated":"2019-04-11 04:21:57",
+                "players":[
+                    {
+                        "name":"Kyle Anderson",
+                        "weight":80,
+                        "height":190,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"anderson.png"
+                    },
+                    {
+                        "name":"Dillon Brooks",
+                        "weight":99,
+                        "height":196,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"brooks.png"
+                    }
+                ]
+            },
+            {
+                "standing_place":"1",
+                "standing_place_type":"Promotion - NBA (Play Offs)",
+                "name":"Golden State Warriors",
+                "standing_P":"82",
+                "standing_W":"57",
+                "standing_L":"25",
+                "standing_F":"9650",
+                "standing_A":"9120",
+                "standing_PCT":"0.695",
+                "identifier":67,
+                "league_identifier":"787",
+                "league_season":"2018/2019",
+                "league_round":"Western Conference",
+                "standing_updated":"2019-04-11 07:20:39",
+                "logo":"goldenState.png",
+                "players":[
+                    {
+                        "name":"Stephen Curry",
+                        "weight":80,
+                        "height":190,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"curry.png"
+                    },
+                    {
+                        "name":"Jacob Evans",
+                        "weight":99,
+                        "height":196,
+                        "country":"🇺🇸",
+                        "position":"Guard",
+                        "picture":"evans.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identifier":758,
+        "name":"ACB",
+        "country":"🇪🇸",
+        "teams":[
+            {
+                "standing_place":"1",
+                "standing_place_type":"Promotion - ACB (Play Offs)",
+                "name":"Real Madrid",
+                "standing_P":"34",
+                "standing_W":"28",
+                "standing_L":"6",
+                "standing_F":"3026",
+                "standing_A":"2678",
+                "standing_PCT":"56",
+                "identifier":17,
+                "league_identifier":"758",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-26 14:37:12",
+                "players":[
+                    {
+                        "name":"Facundo Campazzo",
+                        "weight":84,
+                        "height":181,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    },
+                    {
+                        "name":"Nicolás Laprovittola",
+                        "weight":83,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"2",
+                "standing_place_type":"Promotion - ACB (Play Offs)",
+                "name":"Barcelona",
+                "standing_P":"34",
+                "standing_W":"27",
+                "standing_L":"7",
+                "standing_F":"2948",
+                "standing_A":"2590",
+                "standing_PCT":"54",
+                "identifier":19,
+                "league_identifier":"758",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-26 14:37:13",
+                "players":[
+                    {
+                        "name":"Heurtel",
+                        "weight":83,
+                        "height":189,
+                        "country":"Béziers",
+                        "position":"Guard"
+                    },
+                    {
+                        "name":"Pangos",
+                        "weight":80,
+                        "height":185,
+                        "country":"Holland Landing",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"3",
+                "standing_place_type":"Promotion - ACB (Play Offs)",
+                "name":"Baskonia",
+                "standing_P":"34",
+                "standing_W":"26",
+                "standing_L":"8",
+                "standing_F":"2927",
+                "standing_A":"2549",
+                "standing_PCT":"52",
+                "identifier":18,
+                "league_identifier":"758",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-26 14:37:13",
+                "players":[
+                    {
+                        "name":"Miguel Gonzalez",
+                        "weight":83,
+                        "height":201,
+                        "country":"🇪🇸",
+                        "position":"Guard"
+                    },
+                    {
+                        "name":"Luca Vildoza",
+                        "weight":80,
+                        "height":191,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identifier":627,
+        "name":"Liga A",
+        "country":"🇦🇷",
+        "teams":[
+            {
+                "standing_place":"1",
+                "standing_place_type":"Promotion - Liga A (Play Offs)",
+                "name":"San Lorenzo",
+                "standing_P":"38",
+                "standing_W":"32",
+                "standing_L":"6",
+                "standing_F":"3369",
+                "standing_A":"2952",
+                "standing_PCT":"0.842",
+                "identifier":200,
+                "league_identifier":"627",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-13 05:24:19",
+                "players":[
+                    {
+                        "name":"Facundo Pinero",
+                        "weight":83,
+                        "height":200,
+                        "country":"🇦🇷",
+                        "position":"Forward"
+                    },
+                    {
+                        "name":"Jose Vildoza",
+                        "weight":82,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"2",
+                "standing_place_type":"Promotion - Liga A (Play Offs)",
+                "name":"Instituto de Cordoba",
+                "standing_P":"38",
+                "standing_W":"25",
+                "standing_L":"13",
+                "standing_F":"3184",
+                "standing_A":"2964",
+                "standing_PCT":"0.658",
+                "identifier":1265,
+                "league_identifier":"627",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-13 05:24:20",
+                "players":[
+                    {
+                        "name":"Facundo Pinero",
+                        "weight":83,
+                        "height":200,
+                        "country":"🇦🇷",
+                        "position":"Forward"
+                    },
+                    {
+                        "name":"Jose Vildoza",
+                        "weight":82,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"3",
+                "standing_place_type":"Promotion - Liga A (Play Offs)",
+                "name":"Gimnasia",
+                "standing_P":"38",
+                "standing_W":"23",
+                "standing_L":"15",
+                "standing_F":"3168",
+                "standing_A":"3030",
+                "standing_PCT":"0.605",
+                "identifier":1175,
+                "league_identifier":"627",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-13 05:24:20",
+                "players":[
+                    {
+                        "name":"Facundo Pinero",
+                        "weight":83,
+                        "height":200,
+                        "country":"🇦🇷",
+                        "position":"Forward"
+                    },
+                    {
+                        "name":"Jose Vildoza",
+                        "weight":82,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"4",
+                "standing_place_type":"Promotion - Liga A (Play Offs)",
+                "name":"Comunicaciones Mercedes",
+                "standing_P":"38",
+                "standing_W":"23",
+                "standing_L":"15",
+                "standing_F":"3119",
+                "standing_A":"2964",
+                "standing_PCT":"0.605",
+                "identifier":1256,
+                "league_identifier":"627",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-13 05:24:20",
+                "players":[
+                    {
+                        "name":"Facundo Pinero",
+                        "weight":83,
+                        "height":200,
+                        "country":"🇦🇷",
+                        "position":"Forward"
+                    },
+                    {
+                        "name":"Jose Vildoza",
+                        "weight":82,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            },
+            {
+                "standing_place":"5",
+                "standing_place_type":"Promotion - Liga A (Play Offs)",
+                "name":"Ferro",
+                "standing_P":"38",
+                "standing_W":"23",
+                "standing_L":"15",
+                "standing_F":"3141",
+                "standing_A":"2946",
+                "standing_PCT":"0.605",
+                "identifier":217,
+                "league_identifier":"627",
+                "league_season":"2018/2019",
+                "league_round":"",
+                "logo":"memphis.png",
+                "standing_updated":"2019-05-13 05:24:21",
+                "players":[
+                    {
+                        "name":"Facundo Pinero",
+                        "weight":83,
+                        "height":200,
+                        "country":"🇦🇷",
+                        "position":"Forward"
+                    },
+                    {
+                        "name":"Jose Vildoza",
+                        "weight":82,
+                        "height":190,
+                        "country":"🇦🇷",
+                        "position":"Guard"
+                    }
+                ]
+            }
+        ]
+    }
+]
