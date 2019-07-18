@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01EFF3C22E0FEA900A7AA7D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EFF3B22E0FEA900A7AA7D /* MapView.swift */; };
 		A060E63222E0B8FE009F9325 /* barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E62E22E0B8FE009F9325 /* barcelona.jpg */; };
 		A060E63422E0B8FE009F9325 /* baskonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63022E0B8FE009F9325 /* baskonia.jpg */; };
 		A060E63522E0B8FE009F9325 /* realMadrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63122E0B8FE009F9325 /* realMadrid.jpg */; };
 		A060E63722E0BEF3009F9325 /* sanLorenzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63622E0BEF2009F9325 /* sanLorenzo.jpg */; };
 		A060E63922E0E872009F9325 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060E63822E0E872009F9325 /* CoverImage.swift */; };
+		A060E63C22E0E9E7009F9325 /* ClubDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060E63B22E0E9E7009F9325 /* ClubDetail.swift */; };
 		A0CDF52E22DF99E5004C316F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52D22DF99E5004C316F /* AppDelegate.swift */; };
 		A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */; };
 		A0CDF53222DF99E5004C316F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF53122DF99E5004C316F /* HomeView.swift */; };
@@ -41,14 +43,17 @@
 		A0CDF58E22E0AC33004C316F /* forbes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF58022E0AC33004C316F /* forbes.jpg */; };
 		A0CDF58F22E0AC33004C316F /* derozan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF58122E0AC33004C316F /* derozan.jpg */; };
 		A0CDF59122E0B4E4004C316F /* cover_app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF59022E0B4E4004C316F /* cover_app.jpg */; };
+		A0EE6CF522E0FB1700D1F1BE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE6CF422E0FB1700D1F1BE /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A01EFF3B22E0FEA900A7AA7D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A060E62E22E0B8FE009F9325 /* barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpg; sourceTree = "<group>"; };
 		A060E63022E0B8FE009F9325 /* baskonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baskonia.jpg; sourceTree = "<group>"; };
 		A060E63122E0B8FE009F9325 /* realMadrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = realMadrid.jpg; sourceTree = "<group>"; };
 		A060E63622E0BEF2009F9325 /* sanLorenzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanLorenzo.jpg; sourceTree = "<group>"; };
 		A060E63822E0E872009F9325 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		A060E63B22E0E9E7009F9325 /* ClubDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubDetail.swift; sourceTree = "<group>"; };
 		A0CDF52A22DF99E5004C316F /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CDF52D22DF99E5004C316F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		A0CDF58022E0AC33004C316F /* forbes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forbes.jpg; sourceTree = "<group>"; };
 		A0CDF58122E0AC33004C316F /* derozan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = derozan.jpg; sourceTree = "<group>"; };
 		A0CDF59022E0B4E4004C316F /* cover_app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_app.jpg; sourceTree = "<group>"; };
+		A0EE6CF422E0FB1700D1F1BE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01EFF3A22E0FE9B00A7AA7D /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				A01EFF3B22E0FEA900A7AA7D /* MapView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		A060E63A22E0E9D5009F9325 /* Club Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A060E63B22E0E9E7009F9325 /* ClubDetail.swift */,
+			);
+			path = "Club Detail";
+			sourceTree = "<group>";
+		};
 		A0CDF52122DF99E5004C316F = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +134,9 @@
 		A0CDF52C22DF99E5004C316F /* Basket */ = {
 			isa = PBXGroup;
 			children = (
+				A0EE6CF222E0FAF600D1F1BE /* UIComponents */,
 				A0CDF56F22E0A7D7004C316F /* Helpers */,
+				A0CDF56122DFA246004C316F /* Models */,
 				A0CDF55F22DF9BBF004C316F /* Modules */,
 				A0CDF55E22DF9B81004C316F /* Application */,
 				A0CDF54122DF9A7D004C316F /* Resources */,
@@ -171,7 +195,7 @@
 		A0CDF55F22DF9BBF004C316F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A0CDF56122DFA246004C316F /* Models */,
+				A060E63A22E0E9D5009F9325 /* Club Detail */,
 				A0CDF56022DF9BD8004C316F /* Home */,
 			);
 			path = Modules;
@@ -202,7 +226,6 @@
 			children = (
 				A0CDF56B22E0A662004C316F /* LeagueRow.swift */,
 				A0CDF56D22E0A704004C316F /* TeamItem.swift */,
-				A060E63822E0E872009F9325 /* CoverImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +236,24 @@
 				A0CDF57022E0A7ED004C316F /* ImageStore.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A0EE6CF222E0FAF600D1F1BE /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A01EFF3A22E0FE9B00A7AA7D /* Maps */,
+				A0EE6CF322E0FAFF00D1F1BE /* Images */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		A0EE6CF322E0FAFF00D1F1BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A060E63822E0E872009F9325 /* CoverImage.swift */,
+				A0EE6CF422E0FB1700D1F1BE /* CircleImage.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,11 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A060E63C22E0E9E7009F9325 /* ClubDetail.swift in Sources */,
 				A0CDF56922DFA7EF004C316F /* Data.swift in Sources */,
 				A0CDF52E22DF99E5004C316F /* AppDelegate.swift in Sources */,
+				A0EE6CF522E0FB1700D1F1BE /* CircleImage.swift in Sources */,
 				A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */,
 				A0CDF57122E0A7ED004C316F /* ImageStore.swift in Sources */,
 				A0CDF56E22E0A704004C316F /* TeamItem.swift in Sources */,
+				A01EFF3C22E0FEA900A7AA7D /* MapView.swift in Sources */,
 				A0CDF56322DFA253004C316F /* League.swift in Sources */,
 				A0CDF56522DFA3CE004C316F /* Team.swift in Sources */,
 				A0CDF56C22E0A662004C316F /* LeagueRow.swift in Sources */,
@@ -454,8 +498,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Basket/Preview\\ Content";
+				DEVELOPMENT_TEAM = U5TL9H66ET;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Basket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,8 +519,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "Basket/Preview\\ Content";
+				DEVELOPMENT_TEAM = U5TL9H66ET;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Basket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
