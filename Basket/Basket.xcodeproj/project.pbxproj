@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A01EFF3C22E0FEA900A7AA7D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EFF3B22E0FEA900A7AA7D /* MapView.swift */; };
+		A01EFF3F22E105D300A7AA7D /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EFF3E22E105D300A7AA7D /* PlayerRow.swift */; };
 		A060E63222E0B8FE009F9325 /* barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E62E22E0B8FE009F9325 /* barcelona.jpg */; };
 		A060E63422E0B8FE009F9325 /* baskonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63022E0B8FE009F9325 /* baskonia.jpg */; };
 		A060E63522E0B8FE009F9325 /* realMadrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63122E0B8FE009F9325 /* realMadrid.jpg */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		A01EFF3B22E0FEA900A7AA7D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A01EFF3E22E105D300A7AA7D /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
 		A060E62E22E0B8FE009F9325 /* barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpg; sourceTree = "<group>"; };
 		A060E63022E0B8FE009F9325 /* baskonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baskonia.jpg; sourceTree = "<group>"; };
 		A060E63122E0B8FE009F9325 /* realMadrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = realMadrid.jpg; sourceTree = "<group>"; };
@@ -107,9 +109,18 @@
 			path = Maps;
 			sourceTree = "<group>";
 		};
+		A01EFF3D22E105B600A7AA7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A01EFF3E22E105D300A7AA7D /* PlayerRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A060E63A22E0E9D5009F9325 /* Club Detail */ = {
 			isa = PBXGroup;
 			children = (
+				A01EFF3D22E105B600A7AA7D /* Views */,
 				A060E63B22E0E9E7009F9325 /* ClubDetail.swift */,
 			);
 			path = "Club Detail";
@@ -355,6 +366,7 @@
 				A0CDF57122E0A7ED004C316F /* ImageStore.swift in Sources */,
 				A0CDF56E22E0A704004C316F /* TeamItem.swift in Sources */,
 				A01EFF3C22E0FEA900A7AA7D /* MapView.swift in Sources */,
+				A01EFF3F22E105D300A7AA7D /* PlayerRow.swift in Sources */,
 				A0CDF56322DFA253004C316F /* League.swift in Sources */,
 				A0CDF56522DFA3CE004C316F /* Team.swift in Sources */,
 				A0CDF56C22E0A662004C316F /* LeagueRow.swift in Sources */,
