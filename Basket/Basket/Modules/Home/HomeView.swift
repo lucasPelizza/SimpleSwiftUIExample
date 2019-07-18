@@ -14,17 +14,14 @@ struct HomeView : View {
     var body: some View {
         NavigationView {
             List {
-                Image(systemName: "photo")
+                CoverImage(imageName: "cover_app")
                     .scaledToFill()
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(self.leagues.identified(by: \.identifier)) { value in
-                    Text(value.name)
-                        .font(.headline)
-                        .padding(.leading, 15)
-                        .padding(.top, 5)
+                ForEach(self.leagues.identified(by: \.identifier)) { league in
+                    LeagueRow(league: league)
                 }
                 .listRowInsets(EdgeInsets())
             }
@@ -40,3 +37,5 @@ struct HomeView_Previews : PreviewProvider {
     }
 }
 #endif
+
+
