@@ -20,15 +20,16 @@ struct LeagueRow : View {
                 .padding(.top, 10)
             
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(alignment: .top, spacing: 0) {
-                    ForEach(self.league.teams.identified(by: \.identifier)) { team in
-                        NavigationLink( destination: EmptyView() ) {
-                            TeamItem(team: team)
+                VStack(alignment:.leading) {
+                    HStack(alignment: .top, spacing: 0) {
+                        ForEach(self.league.teams.identified(by: \.identifier)) { team in
+                            NavigationLink(destination: ClubDetail(team: team) ) {
+                                TeamItem(team: team)
+                            }
                         }
                     }
                 }
-            }
-            .frame(height: 200)
+            }.frame(height: 200)
         }
     }
 }

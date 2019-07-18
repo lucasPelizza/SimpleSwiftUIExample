@@ -7,10 +7,20 @@
 //
 
 import Foundation
+import CoreLocation
 
 struct Team: Codable {
     let identifier: Int
     let name: String
     let logo: String?
+    var latitude: Double
+    var longitude: Double
     let players: [Player]
+    
+    
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: latitude,
+            longitude: longitude)
+    }
 }
