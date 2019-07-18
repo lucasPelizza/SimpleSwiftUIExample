@@ -20,6 +20,8 @@
                 "league_round":"Southwest Division",
                 "standing_updated":"2019-04-11 04:21:56",
                 "logo":"houstonRockets",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Chris Chiozza",
@@ -53,6 +55,8 @@
                 "league_round":"Southwest Division",
                 "logo":"sanAntonio",
                 "standing_updated":"2019-04-11 04:21:56",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Bryan Forbes",
@@ -88,6 +92,8 @@
                 "league_round":"Southwest Division",
                 "logo":"newOrleans",
                 "standing_updated":"2019-04-11 04:21:57",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Ian Clark",
@@ -123,6 +129,8 @@
                 "league_round":"Southwest Division",
                 "logo":"memphis",
                 "standing_updated":"2019-04-11 04:21:57",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Kyle Anderson",
@@ -158,6 +166,8 @@
                 "league_round":"Western Conference",
                 "standing_updated":"2019-04-11 07:20:39",
                 "logo":"goldenState",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Stephen Curry",
@@ -200,6 +210,8 @@
                 "league_round":"",
                 "logo":"realMadrid",
                 "standing_updated":"2019-05-26 14:37:12",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Campazzo",
@@ -233,6 +245,8 @@
                 "league_round":"",
                 "logo":"barcelona",
                 "standing_updated":"2019-05-26 14:37:13",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Heurtel",
@@ -266,6 +280,8 @@
                 "league_round":"",
                 "logo":"baskonia",
                 "standing_updated":"2019-05-26 14:37:13",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Miguel Gonzalez",
@@ -306,6 +322,8 @@
                 "league_round":"",
                 "logo":"sanLorenzo",
                 "standing_updated":"2019-05-13 05:24:19",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -339,6 +357,8 @@
                 "league_round":"",
                 "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -372,6 +392,8 @@
                 "league_round":"",
                 "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -405,6 +427,8 @@
                 "league_round":"",
                 "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -438,6 +462,8 @@
                 "league_round":"",
                 "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:21",
+                "latitude": 29.750833,
+                "longitude": -95.362222,
                 "players":[
                     {
                         "name":"Facundo Pinero",
