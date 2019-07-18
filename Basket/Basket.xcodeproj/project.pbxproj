@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A060E63222E0B8FE009F9325 /* barcelona.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E62E22E0B8FE009F9325 /* barcelona.jpg */; };
+		A060E63422E0B8FE009F9325 /* baskonia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63022E0B8FE009F9325 /* baskonia.jpg */; };
+		A060E63522E0B8FE009F9325 /* realMadrid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63122E0B8FE009F9325 /* realMadrid.jpg */; };
+		A060E63722E0BEF3009F9325 /* sanLorenzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A060E63622E0BEF2009F9325 /* sanLorenzo.jpg */; };
+		A060E63922E0E872009F9325 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060E63822E0E872009F9325 /* CoverImage.swift */; };
 		A0CDF52E22DF99E5004C316F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52D22DF99E5004C316F /* AppDelegate.swift */; };
 		A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */; };
 		A0CDF53222DF99E5004C316F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF53122DF99E5004C316F /* HomeView.swift */; };
@@ -14,26 +19,36 @@
 		A0CDF53722DF99E9004C316F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF53622DF99E9004C316F /* Preview Assets.xcassets */; };
 		A0CDF53A22DF99E9004C316F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF53822DF99E9004C316F /* LaunchScreen.storyboard */; };
 		A0CDF54322DF9AD1004C316F /* leagues.json in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54222DF9AD1004C316F /* leagues.json */; };
-		A0CDF55122DF9ADA004C316F /* sanAntonio.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54422DF9AD9004C316F /* sanAntonio.png */; };
-		A0CDF55222DF9ADA004C316F /* memphis.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54522DF9AD9004C316F /* memphis.png */; };
-		A0CDF55322DF9ADA004C316F /* diallo.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54622DF9AD9004C316F /* diallo.png */; };
-		A0CDF55422DF9ADA004C316F /* derozan.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54722DF9AD9004C316F /* derozan.png */; };
-		A0CDF55522DF9ADA004C316F /* houstonRockets.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54822DF9AD9004C316F /* houstonRockets.png */; };
-		A0CDF55622DF9ADA004C316F /* brooks.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54922DF9AD9004C316F /* brooks.png */; };
-		A0CDF55722DF9ADA004C316F /* goldenState.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54A22DF9AD9004C316F /* goldenState.png */; };
-		A0CDF55822DF9ADA004C316F /* clark.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54B22DF9AD9004C316F /* clark.png */; };
-		A0CDF55922DF9ADA004C316F /* evans.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54C22DF9AD9004C316F /* evans.png */; };
-		A0CDF55A22DF9ADA004C316F /* curry.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54D22DF9AD9004C316F /* curry.png */; };
-		A0CDF55B22DF9ADA004C316F /* anderson.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54E22DF9ADA004C316F /* anderson.png */; };
-		A0CDF55C22DF9ADA004C316F /* newOrleans.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF54F22DF9ADA004C316F /* newOrleans.png */; };
-		A0CDF55D22DF9ADA004C316F /* forbes.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF55022DF9ADA004C316F /* forbes.png */; };
 		A0CDF56322DFA253004C316F /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56222DFA253004C316F /* League.swift */; };
 		A0CDF56522DFA3CE004C316F /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56422DFA3CE004C316F /* Team.swift */; };
 		A0CDF56722DFA46D004C316F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56622DFA46D004C316F /* Player.swift */; };
 		A0CDF56922DFA7EF004C316F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56822DFA7EF004C316F /* Data.swift */; };
+		A0CDF56C22E0A662004C316F /* LeagueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56B22E0A662004C316F /* LeagueRow.swift */; };
+		A0CDF56E22E0A704004C316F /* TeamItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF56D22E0A704004C316F /* TeamItem.swift */; };
+		A0CDF57122E0A7ED004C316F /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF57022E0A7ED004C316F /* ImageStore.swift */; };
+		A0CDF58222E0AC33004C316F /* sanAntonio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57422E0AC32004C316F /* sanAntonio.jpg */; };
+		A0CDF58322E0AC33004C316F /* memphis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57522E0AC32004C316F /* memphis.jpg */; };
+		A0CDF58422E0AC33004C316F /* team_placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57622E0AC32004C316F /* team_placeholder.jpg */; };
+		A0CDF58522E0AC33004C316F /* evans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57722E0AC32004C316F /* evans.jpg */; };
+		A0CDF58622E0AC33004C316F /* anderson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57822E0AC32004C316F /* anderson.jpg */; };
+		A0CDF58722E0AC33004C316F /* clark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57922E0AC32004C316F /* clark.jpg */; };
+		A0CDF58822E0AC33004C316F /* newOrleans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57A22E0AC32004C316F /* newOrleans.jpg */; };
+		A0CDF58922E0AC33004C316F /* houstonRockets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57B22E0AC32004C316F /* houstonRockets.jpg */; };
+		A0CDF58A22E0AC33004C316F /* diallo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57C22E0AC32004C316F /* diallo.jpg */; };
+		A0CDF58B22E0AC33004C316F /* curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57D22E0AC32004C316F /* curry.jpg */; };
+		A0CDF58C22E0AC33004C316F /* goldenState.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57E22E0AC32004C316F /* goldenState.jpg */; };
+		A0CDF58D22E0AC33004C316F /* brooks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF57F22E0AC33004C316F /* brooks.jpg */; };
+		A0CDF58E22E0AC33004C316F /* forbes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF58022E0AC33004C316F /* forbes.jpg */; };
+		A0CDF58F22E0AC33004C316F /* derozan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF58122E0AC33004C316F /* derozan.jpg */; };
+		A0CDF59122E0B4E4004C316F /* cover_app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0CDF59022E0B4E4004C316F /* cover_app.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A060E62E22E0B8FE009F9325 /* barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barcelona.jpg; sourceTree = "<group>"; };
+		A060E63022E0B8FE009F9325 /* baskonia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baskonia.jpg; sourceTree = "<group>"; };
+		A060E63122E0B8FE009F9325 /* realMadrid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = realMadrid.jpg; sourceTree = "<group>"; };
+		A060E63622E0BEF2009F9325 /* sanLorenzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanLorenzo.jpg; sourceTree = "<group>"; };
+		A060E63822E0E872009F9325 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		A0CDF52A22DF99E5004C316F /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CDF52D22DF99E5004C316F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,23 +58,28 @@
 		A0CDF53922DF99E9004C316F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0CDF53B22DF99E9004C316F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0CDF54222DF9AD1004C316F /* leagues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leagues.json; sourceTree = "<group>"; };
-		A0CDF54422DF9AD9004C316F /* sanAntonio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanAntonio.png; sourceTree = "<group>"; };
-		A0CDF54522DF9AD9004C316F /* memphis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memphis.png; sourceTree = "<group>"; };
-		A0CDF54622DF9AD9004C316F /* diallo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diallo.png; sourceTree = "<group>"; };
-		A0CDF54722DF9AD9004C316F /* derozan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = derozan.png; sourceTree = "<group>"; };
-		A0CDF54822DF9AD9004C316F /* houstonRockets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houstonRockets.png; sourceTree = "<group>"; };
-		A0CDF54922DF9AD9004C316F /* brooks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brooks.png; sourceTree = "<group>"; };
-		A0CDF54A22DF9AD9004C316F /* goldenState.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldenState.png; sourceTree = "<group>"; };
-		A0CDF54B22DF9AD9004C316F /* clark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clark.png; sourceTree = "<group>"; };
-		A0CDF54C22DF9AD9004C316F /* evans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evans.png; sourceTree = "<group>"; };
-		A0CDF54D22DF9AD9004C316F /* curry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curry.png; sourceTree = "<group>"; };
-		A0CDF54E22DF9ADA004C316F /* anderson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anderson.png; sourceTree = "<group>"; };
-		A0CDF54F22DF9ADA004C316F /* newOrleans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newOrleans.png; sourceTree = "<group>"; };
-		A0CDF55022DF9ADA004C316F /* forbes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forbes.png; sourceTree = "<group>"; };
 		A0CDF56222DFA253004C316F /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
 		A0CDF56422DFA3CE004C316F /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		A0CDF56622DFA46D004C316F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		A0CDF56822DFA7EF004C316F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A0CDF56B22E0A662004C316F /* LeagueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueRow.swift; sourceTree = "<group>"; };
+		A0CDF56D22E0A704004C316F /* TeamItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamItem.swift; sourceTree = "<group>"; };
+		A0CDF57022E0A7ED004C316F /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		A0CDF57422E0AC32004C316F /* sanAntonio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanAntonio.jpg; sourceTree = "<group>"; };
+		A0CDF57522E0AC32004C316F /* memphis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memphis.jpg; sourceTree = "<group>"; };
+		A0CDF57622E0AC32004C316F /* team_placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team_placeholder.jpg; sourceTree = "<group>"; };
+		A0CDF57722E0AC32004C316F /* evans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evans.jpg; sourceTree = "<group>"; };
+		A0CDF57822E0AC32004C316F /* anderson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anderson.jpg; sourceTree = "<group>"; };
+		A0CDF57922E0AC32004C316F /* clark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clark.jpg; sourceTree = "<group>"; };
+		A0CDF57A22E0AC32004C316F /* newOrleans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newOrleans.jpg; sourceTree = "<group>"; };
+		A0CDF57B22E0AC32004C316F /* houstonRockets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houstonRockets.jpg; sourceTree = "<group>"; };
+		A0CDF57C22E0AC32004C316F /* diallo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diallo.jpg; sourceTree = "<group>"; };
+		A0CDF57D22E0AC32004C316F /* curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = curry.jpg; sourceTree = "<group>"; };
+		A0CDF57E22E0AC32004C316F /* goldenState.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenState.jpg; sourceTree = "<group>"; };
+		A0CDF57F22E0AC33004C316F /* brooks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brooks.jpg; sourceTree = "<group>"; };
+		A0CDF58022E0AC33004C316F /* forbes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forbes.jpg; sourceTree = "<group>"; };
+		A0CDF58122E0AC33004C316F /* derozan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = derozan.jpg; sourceTree = "<group>"; };
+		A0CDF59022E0B4E4004C316F /* cover_app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover_app.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,7 @@
 		A0CDF52C22DF99E5004C316F /* Basket */ = {
 			isa = PBXGroup;
 			children = (
+				A0CDF56F22E0A7D7004C316F /* Helpers */,
 				A0CDF55F22DF9BBF004C316F /* Modules */,
 				A0CDF55E22DF9B81004C316F /* Application */,
 				A0CDF54122DF9A7D004C316F /* Resources */,
@@ -113,21 +134,27 @@
 		A0CDF54122DF9A7D004C316F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A0CDF53322DF99E9004C316F /* Assets.xcassets */,
 				A0CDF54222DF9AD1004C316F /* leagues.json */,
-				A0CDF54E22DF9ADA004C316F /* anderson.png */,
-				A0CDF54922DF9AD9004C316F /* brooks.png */,
-				A0CDF54B22DF9AD9004C316F /* clark.png */,
-				A0CDF54D22DF9AD9004C316F /* curry.png */,
-				A0CDF54722DF9AD9004C316F /* derozan.png */,
-				A0CDF54622DF9AD9004C316F /* diallo.png */,
-				A0CDF54C22DF9AD9004C316F /* evans.png */,
-				A0CDF55022DF9ADA004C316F /* forbes.png */,
-				A0CDF54A22DF9AD9004C316F /* goldenState.png */,
-				A0CDF54822DF9AD9004C316F /* houstonRockets.png */,
-				A0CDF54522DF9AD9004C316F /* memphis.png */,
-				A0CDF54F22DF9ADA004C316F /* newOrleans.png */,
-				A0CDF54422DF9AD9004C316F /* sanAntonio.png */,
+				A0CDF57822E0AC32004C316F /* anderson.jpg */,
+				A0CDF59022E0B4E4004C316F /* cover_app.jpg */,
+				A0CDF57F22E0AC33004C316F /* brooks.jpg */,
+				A0CDF57922E0AC32004C316F /* clark.jpg */,
+				A060E62E22E0B8FE009F9325 /* barcelona.jpg */,
+				A060E63022E0B8FE009F9325 /* baskonia.jpg */,
+				A060E63622E0BEF2009F9325 /* sanLorenzo.jpg */,
+				A060E63122E0B8FE009F9325 /* realMadrid.jpg */,
+				A0CDF57D22E0AC32004C316F /* curry.jpg */,
+				A0CDF58122E0AC33004C316F /* derozan.jpg */,
+				A0CDF57C22E0AC32004C316F /* diallo.jpg */,
+				A0CDF57722E0AC32004C316F /* evans.jpg */,
+				A0CDF58022E0AC33004C316F /* forbes.jpg */,
+				A0CDF57E22E0AC32004C316F /* goldenState.jpg */,
+				A0CDF57B22E0AC32004C316F /* houstonRockets.jpg */,
+				A0CDF57522E0AC32004C316F /* memphis.jpg */,
+				A0CDF57A22E0AC32004C316F /* newOrleans.jpg */,
+				A0CDF57422E0AC32004C316F /* sanAntonio.jpg */,
+				A0CDF57622E0AC32004C316F /* team_placeholder.jpg */,
+				A0CDF53322DF99E9004C316F /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -153,6 +180,7 @@
 		A0CDF56022DF9BD8004C316F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A0CDF56A22E0A581004C316F /* Views */,
 				A0CDF53122DF99E5004C316F /* HomeView.swift */,
 			);
 			path = Home;
@@ -167,6 +195,24 @@
 				A0CDF56822DFA7EF004C316F /* Data.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A0CDF56A22E0A581004C316F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0CDF56B22E0A662004C316F /* LeagueRow.swift */,
+				A0CDF56D22E0A704004C316F /* TeamItem.swift */,
+				A060E63822E0E872009F9325 /* CoverImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0CDF56F22E0A7D7004C316F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0CDF57022E0A7ED004C316F /* ImageStore.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,23 +273,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0CDF55322DF9ADA004C316F /* diallo.png in Resources */,
-				A0CDF55D22DF9ADA004C316F /* forbes.png in Resources */,
-				A0CDF55A22DF9ADA004C316F /* curry.png in Resources */,
-				A0CDF55722DF9ADA004C316F /* goldenState.png in Resources */,
-				A0CDF55B22DF9ADA004C316F /* anderson.png in Resources */,
-				A0CDF55422DF9ADA004C316F /* derozan.png in Resources */,
+				A060E63722E0BEF3009F9325 /* sanLorenzo.jpg in Resources */,
+				A060E63522E0B8FE009F9325 /* realMadrid.jpg in Resources */,
+				A0CDF58422E0AC33004C316F /* team_placeholder.jpg in Resources */,
+				A060E63422E0B8FE009F9325 /* baskonia.jpg in Resources */,
+				A0CDF58B22E0AC33004C316F /* curry.jpg in Resources */,
+				A0CDF58722E0AC33004C316F /* clark.jpg in Resources */,
+				A0CDF58E22E0AC33004C316F /* forbes.jpg in Resources */,
 				A0CDF53A22DF99E9004C316F /* LaunchScreen.storyboard in Resources */,
-				A0CDF55122DF9ADA004C316F /* sanAntonio.png in Resources */,
+				A0CDF58222E0AC33004C316F /* sanAntonio.jpg in Resources */,
+				A0CDF58922E0AC33004C316F /* houstonRockets.jpg in Resources */,
+				A0CDF58C22E0AC33004C316F /* goldenState.jpg in Resources */,
+				A0CDF59122E0B4E4004C316F /* cover_app.jpg in Resources */,
+				A0CDF58A22E0AC33004C316F /* diallo.jpg in Resources */,
+				A0CDF58F22E0AC33004C316F /* derozan.jpg in Resources */,
+				A060E63222E0B8FE009F9325 /* barcelona.jpg in Resources */,
 				A0CDF53722DF99E9004C316F /* Preview Assets.xcassets in Resources */,
-				A0CDF55922DF9ADA004C316F /* evans.png in Resources */,
-				A0CDF55622DF9ADA004C316F /* brooks.png in Resources */,
-				A0CDF55522DF9ADA004C316F /* houstonRockets.png in Resources */,
-				A0CDF55222DF9ADA004C316F /* memphis.png in Resources */,
-				A0CDF55822DF9ADA004C316F /* clark.png in Resources */,
+				A0CDF58D22E0AC33004C316F /* brooks.jpg in Resources */,
+				A0CDF58822E0AC33004C316F /* newOrleans.jpg in Resources */,
+				A0CDF58322E0AC33004C316F /* memphis.jpg in Resources */,
+				A0CDF58622E0AC33004C316F /* anderson.jpg in Resources */,
+				A0CDF58522E0AC33004C316F /* evans.jpg in Resources */,
 				A0CDF54322DF9AD1004C316F /* leagues.json in Resources */,
 				A0CDF53422DF99E9004C316F /* Assets.xcassets in Resources */,
-				A0CDF55C22DF9ADA004C316F /* newOrleans.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +309,14 @@
 				A0CDF56922DFA7EF004C316F /* Data.swift in Sources */,
 				A0CDF52E22DF99E5004C316F /* AppDelegate.swift in Sources */,
 				A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */,
+				A0CDF57122E0A7ED004C316F /* ImageStore.swift in Sources */,
+				A0CDF56E22E0A704004C316F /* TeamItem.swift in Sources */,
 				A0CDF56322DFA253004C316F /* League.swift in Sources */,
 				A0CDF56522DFA3CE004C316F /* Team.swift in Sources */,
+				A0CDF56C22E0A662004C316F /* LeagueRow.swift in Sources */,
 				A0CDF56722DFA46D004C316F /* Player.swift in Sources */,
 				A0CDF53222DF99E5004C316F /* HomeView.swift in Sources */,
+				A060E63922E0E872009F9325 /* CoverImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

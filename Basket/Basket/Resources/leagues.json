@@ -19,7 +19,7 @@
                 "league_season":"2018/2019",
                 "league_round":"Southwest Division",
                 "standing_updated":"2019-04-11 04:21:56",
-                "logo":"houstonRockets.png",
+                "logo":"houstonRockets",
                 "players":[
                     {
                         "name":"Chris Chiozza",
@@ -51,7 +51,7 @@
                 "league_identifier":"787",
                 "league_season":"2018/2019",
                 "league_round":"Southwest Division",
-                "logo":"sanAntonio.png",
+                "logo":"sanAntonio",
                 "standing_updated":"2019-04-11 04:21:56",
                 "players":[
                     {
@@ -60,7 +60,7 @@
                         "height":190,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"forbes.png"
+                        "picture":"forbes"
                     },
                     {
                         "name":"DeMar DeRozan",
@@ -68,7 +68,7 @@
                         "height":201,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"derozan.png"
+                        "picture":"derozan"
                     }
                 ]
             },
@@ -86,7 +86,7 @@
                 "league_identifier":"787",
                 "league_season":"2018/2019",
                 "league_round":"Southwest Division",
-                "logo":"newOrleans.png",
+                "logo":"newOrleans",
                 "standing_updated":"2019-04-11 04:21:57",
                 "players":[
                     {
@@ -95,7 +95,7 @@
                         "height":190,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"clark.png"
+                        "picture":"clark"
                     },
                     {
                         "name":"Cheick Diallo",
@@ -103,7 +103,7 @@
                         "height":196,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"diallo.png"
+                        "picture":"diallo"
                     }
                 ]
             },
@@ -121,7 +121,7 @@
                 "league_identifier":"787",
                 "league_season":"2018/2019",
                 "league_round":"Southwest Division",
-                "logo":"memphis.png",
+                "logo":"memphis",
                 "standing_updated":"2019-04-11 04:21:57",
                 "players":[
                     {
@@ -130,7 +130,7 @@
                         "height":190,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"anderson.png"
+                        "picture":"anderson"
                     },
                     {
                         "name":"Dillon Brooks",
@@ -138,7 +138,7 @@
                         "height":196,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"brooks.png"
+                        "picture":"brooks"
                     }
                 ]
             },
@@ -157,7 +157,7 @@
                 "league_season":"2018/2019",
                 "league_round":"Western Conference",
                 "standing_updated":"2019-04-11 07:20:39",
-                "logo":"goldenState.png",
+                "logo":"goldenState",
                 "players":[
                     {
                         "name":"Stephen Curry",
@@ -165,7 +165,7 @@
                         "height":190,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"curry.png"
+                        "picture":"curry"
                     },
                     {
                         "name":"Jacob Evans",
@@ -173,7 +173,7 @@
                         "height":196,
                         "country":"🇺🇸",
                         "position":"Guard",
-                        "picture":"evans.png"
+                        "picture":"evans"
                     }
                 ]
             }
@@ -198,7 +198,7 @@
                 "league_identifier":"758",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"realMadrid",
                 "standing_updated":"2019-05-26 14:37:12",
                 "players":[
                     {
@@ -231,7 +231,7 @@
                 "league_identifier":"758",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"barcelona",
                 "standing_updated":"2019-05-26 14:37:13",
                 "players":[
                     {
@@ -264,7 +264,7 @@
                 "league_identifier":"758",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"baskonia",
                 "standing_updated":"2019-05-26 14:37:13",
                 "players":[
                     {
@@ -304,7 +304,7 @@
                 "league_identifier":"627",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"sanLorenzo",
                 "standing_updated":"2019-05-13 05:24:19",
                 "players":[
                     {
@@ -337,7 +337,7 @@
                 "league_identifier":"627",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
                 "players":[
                     {
@@ -370,7 +370,7 @@
                 "league_identifier":"627",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
                 "players":[
                     {
@@ -403,7 +403,7 @@
                 "league_identifier":"627",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:20",
                 "players":[
                     {
@@ -436,7 +436,7 @@
                 "league_identifier":"627",
                 "league_season":"2018/2019",
                 "league_round":"",
-                "logo":"memphis.png",
+                "logo":"memphis",
                 "standing_updated":"2019-05-13 05:24:21",
                 "players":[
                     {
