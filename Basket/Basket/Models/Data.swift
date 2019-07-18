@@ -11,6 +11,7 @@ import CoreLocation
 
 let leaguesData: [League] = load("leagues.json")
 
+
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
     
@@ -33,3 +34,7 @@ func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     }
 }
 
+#if DEBUG
+let teamData: Team = leaguesData[0].teams[0]
+let playerData: Player = teamData.players[0]
+#endif

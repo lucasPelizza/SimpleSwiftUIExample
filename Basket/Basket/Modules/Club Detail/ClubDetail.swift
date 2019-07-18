@@ -22,8 +22,7 @@ struct ClubDetail : View {
                 .aspectRatio(contentMode: .fit)
                 .offset(x: 0, y: -130)
                 .padding(.bottom, -130)
-                .padding(.leading, 80)
-                .padding(.trailing, 80)
+                .padding([.leading, .trailing], 80)
                 .layoutPriority(1)
             
             VStack(alignment: .leading) {
@@ -39,17 +38,18 @@ struct ClubDetail : View {
                 } else {
                     Text("Show players list")
                 }
-            }
+            }.padding(.top, -20)
             
             if self.isShowingPlayer {
                 List {
                     ForEach(team.players.identified(by: \.name)) { player in
-                        Text(player.name)
+                        PlayerRow(player: player).frame(height: 140 )
                     }
-                }
+                }.layoutPriority(0.9)
+                .listRowInsets(EdgeInsets())                
+            } else {
+                Spacer()
             }
-            
-            Spacer()
         }
     }
 }
