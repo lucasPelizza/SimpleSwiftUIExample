@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 
 let leaguesData: [League] = load("leagues.json")
-
+let userData = UserData()
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

@@ -44,9 +44,8 @@ struct ClubDetail : View {
                 List {
                     ForEach(team.players.identified(by: \.name)) { player in
                         PlayerRow(player: player).frame(height: 140 )
-                    }
+                    }.listRowInsets(EdgeInsets())
                 }.layoutPriority(0.9)
-                    .listRowInsets(EdgeInsets())
             } else {
                 Spacer()
             }

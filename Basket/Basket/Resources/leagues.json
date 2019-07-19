@@ -22,6 +22,7 @@
                 "logo":"houstonRockets",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇺🇸",
                 "players":[
                     {
                         "name":"Chris Chiozza",
@@ -57,6 +58,7 @@
                 "standing_updated":"2019-04-11 04:21:56",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇺🇸",
                 "players":[
                     {
                         "name":"Bryan Forbes",
@@ -94,6 +96,7 @@
                 "standing_updated":"2019-04-11 04:21:57",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇺🇸",
                 "players":[
                     {
                         "name":"Ian Clark",
@@ -131,6 +134,7 @@
                 "standing_updated":"2019-04-11 04:21:57",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇺🇸",
                 "players":[
                     {
                         "name":"Kyle Anderson",
@@ -168,6 +172,7 @@
                 "logo":"goldenState",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇺🇸",
                 "players":[
                     {
                         "name":"Stephen Curry",
@@ -212,6 +217,7 @@
                 "standing_updated":"2019-05-26 14:37:12",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇪🇸",
                 "players":[
                     {
                         "name":"Facundo Campazzo",
@@ -247,6 +253,7 @@
                 "standing_updated":"2019-05-26 14:37:13",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇪🇸",
                 "players":[
                     {
                         "name":"Heurtel",
@@ -282,6 +289,7 @@
                 "standing_updated":"2019-05-26 14:37:13",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇪🇸",
                 "players":[
                     {
                         "name":"Miguel Gonzalez",
@@ -324,6 +332,7 @@
                 "standing_updated":"2019-05-13 05:24:19",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇦🇷",
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -359,6 +368,7 @@
                 "standing_updated":"2019-05-13 05:24:20",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇦🇷",
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -394,6 +404,7 @@
                 "standing_updated":"2019-05-13 05:24:20",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇦🇷",
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -429,6 +440,7 @@
                 "standing_updated":"2019-05-13 05:24:20",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇦🇷",
                 "players":[
                     {
                         "name":"Facundo Pinero",
@@ -464,6 +476,7 @@
                 "standing_updated":"2019-05-13 05:24:21",
                 "latitude": 29.750833,
                 "longitude": -95.362222,
+                "country":"🇦🇷",
                 "players":[
                     {
                         "name":"Facundo Pinero",
