@@ -46,7 +46,7 @@ struct ClubDetail : View {
                         PlayerRow(player: player).frame(height: 140 )
                     }
                 }.layoutPriority(0.9)
-                .listRowInsets(EdgeInsets())                
+                    .listRowInsets(EdgeInsets())
             } else {
                 Spacer()
             }
@@ -62,5 +62,6 @@ struct ClubDetail_Previews : PreviewProvider {
     }
 }
 #endif
+
 
 
