@@ -9,7 +9,6 @@
 import Foundation
 import CoreLocation
 
-let leaguesData: [League] = load("leagues.json")
 let userData = UserData()
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
@@ -34,6 +33,7 @@ func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     }
 }
 
+let leaguesData: [League] = load("leagues.json")
 #if DEBUG
 let teamData: Team = leaguesData[0].teams[0]
 let playerData: Player = teamData.players[0]

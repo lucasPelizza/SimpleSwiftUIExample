@@ -10,9 +10,8 @@ import SwiftUI
 
 struct TabbedNavigator : View {
     var body: some View {
-
             TabbedView {
-                HomeView(leagues: leaguesData)
+                HomeView()
                     .tabItem {
                         Image(systemName: "square.grid.2x2")
                         Text("Home")
@@ -24,7 +23,22 @@ struct TabbedNavigator : View {
                         Image(systemName: "star")
                         Text("Favorite")
                 }.tag(1)
-            }
+            }.onAppear(perform: loadFavorite)
+    }
+    
+    private func loadFavorite() {
+        //I added mock data because there is a bug in Xcode 11 beta:
+        //
+        // *APPLE:*  if you nest a ScrollView inside a List and that ScrollView contains a NavigationLink,
+        // the links won’t navigate to the destination when tapped by the user.
+        userData.favoritePlayers.append(leaguesData[0].teams[0].players[0])
+        userData.favoriteTeams.append(leaguesData[0].teams[0])
+        userData.favoritePlayers.append(leaguesData[0].teams[1].players[0])
+        userData.favoriteTeams.append(leaguesData[0].teams[1])
+        userData.favoritePlayers.append(leaguesData[0].teams[2].players[0])
+        userData.favoriteTeams.append(leaguesData[0].teams[2])
+        userData.favoritePlayers.append(leaguesData[0].teams[3].players[0])
+        userData.favoriteTeams.append(leaguesData[0].teams[3])
     }
 }
 

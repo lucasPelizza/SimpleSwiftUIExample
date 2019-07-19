@@ -9,7 +9,8 @@
 import SwiftUI
 
 struct HomeView : View {
-    var leagues: [League]
+    
+    @ObjectBinding var presenter = HomePresenter()
     
     var body: some View {
         NavigationView {
@@ -20,20 +21,23 @@ struct HomeView : View {
                     .clipped()
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(self.leagues.identified(by: \.identifier)) { league in
+                ForEach(self.presenter.leagues.identified(by: \.identifier)) { league in
                     LeagueRow(league: league)
                 }
                 .listRowInsets(EdgeInsets())
             }.navigationBarTitle(Text("Leagues"))
-        }
-        
+        }.onAppear(perform: loadData)
+    }
+    
+    private func loadData() {
+        self.presenter.fetchLeagues()
     }
 }
 
 #if DEBUG
 struct HomeView_Previews : PreviewProvider {
     static var previews: some View {
-        HomeView(leagues: leaguesData)
+        HomeView()
     }
 }
 #endif
