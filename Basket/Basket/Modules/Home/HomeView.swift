@@ -19,14 +19,14 @@ struct HomeView : View {
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
-
+                
                 ForEach(self.leagues.identified(by: \.identifier)) { league in
                     LeagueRow(league: league)
                 }
                 .listRowInsets(EdgeInsets())
-            }
-            .navigationBarTitle(Text("Leagues"))
+            }.navigationBarTitle(Text("Leagues"))
         }
+        
     }
 }
 
@@ -37,5 +37,6 @@ struct HomeView_Previews : PreviewProvider {
     }
 }
 #endif
+
 
 
