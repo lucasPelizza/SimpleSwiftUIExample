@@ -19,7 +19,7 @@ struct PlayerRow : View {
             
             VStack(alignment: .leading) {
                 Text("\(player.name) - \(player.country)")
-                .font(.largeTitle)
+                .font(.title)
                     .fixedSize()
                 
                 Text("Position: \(player.position)")

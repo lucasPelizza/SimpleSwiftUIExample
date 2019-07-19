@@ -19,6 +19,7 @@ struct TabbedNavigator : View {
                     }.tag(0)
                 
                 FavoriteView()
+                    .environmentObject(userData)
                     .tabItem {
                         Image(systemName: "star")
                         Text("Favorite")

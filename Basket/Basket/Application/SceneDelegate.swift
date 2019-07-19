@@ -22,6 +22,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
+            userData.favoritePlayers.append(leaguesData[0].teams[0].players[0])
+            userData.favoriteTeams.append(leaguesData[0].teams[0])
+            userData.favoritePlayers.append(leaguesData[0].teams[1].players[0])
+            userData.favoriteTeams.append(leaguesData[0].teams[1])
+            userData.favoritePlayers.append(leaguesData[0].teams[2].players[0])
+            userData.favoriteTeams.append(leaguesData[0].teams[2])
+            userData.favoritePlayers.append(leaguesData[0].teams[3].players[0])
+            userData.favoriteTeams.append(leaguesData[0].teams[3])
             window.rootViewController = UIHostingController(rootView: TabbedNavigator())
             self.window = window
             window.makeKeyAndVisible()
