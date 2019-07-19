@@ -18,6 +18,8 @@
 		A0C856E122E1FAD0009FA61A /* TabbedNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C856E022E1FAD0009FA61A /* TabbedNavigator.swift */; };
 		A0C856E422E2101C009FA61A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C856E322E2101C009FA61A /* FavoriteView.swift */; };
 		A0C856E722E231A8009FA61A /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C856E622E231A8009FA61A /* SectionHeader.swift */; };
+		A0C856EA22E234AD009FA61A /* TeamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C856E922E234AD009FA61A /* TeamRow.swift */; };
+		A0C856EC22E239A7009FA61A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C856EB22E239A7009FA61A /* UserData.swift */; };
 		A0CDF52E22DF99E5004C316F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52D22DF99E5004C316F /* AppDelegate.swift */; };
 		A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */; };
 		A0CDF53222DF99E5004C316F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDF53122DF99E5004C316F /* HomeView.swift */; };
@@ -62,6 +64,8 @@
 		A0C856E022E1FAD0009FA61A /* TabbedNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedNavigator.swift; sourceTree = "<group>"; };
 		A0C856E322E2101C009FA61A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		A0C856E622E231A8009FA61A /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		A0C856E922E234AD009FA61A /* TeamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRow.swift; sourceTree = "<group>"; };
+		A0C856EB22E239A7009FA61A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		A0CDF52A22DF99E5004C316F /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CDF52D22DF99E5004C316F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0CDF52F22DF99E5004C316F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 		A0C856E222E2100C009FA61A /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				A0C856E822E232C4009FA61A /* Views */,
 				A0C856E322E2101C009FA61A /* FavoriteView.swift */,
 			);
 			path = Favorite;
@@ -154,6 +159,14 @@
 				A0C856E622E231A8009FA61A /* SectionHeader.swift */,
 			);
 			path = Sections;
+			sourceTree = "<group>";
+		};
+		A0C856E822E232C4009FA61A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0C856E922E234AD009FA61A /* TeamRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A0CDF52122DF99E5004C316F = {
@@ -260,6 +273,7 @@
 				A0CDF56422DFA3CE004C316F /* Team.swift */,
 				A0CDF56622DFA46D004C316F /* Player.swift */,
 				A0CDF56822DFA7EF004C316F /* Data.swift */,
+				A0C856EB22E239A7009FA61A /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -398,6 +412,7 @@
 				A0EE6CF522E0FB1700D1F1BE /* CircleImage.swift in Sources */,
 				A0CDF53022DF99E5004C316F /* SceneDelegate.swift in Sources */,
 				A0CDF57122E0A7ED004C316F /* ImageStore.swift in Sources */,
+				A0C856EA22E234AD009FA61A /* TeamRow.swift in Sources */,
 				A0CDF56E22E0A704004C316F /* TeamItem.swift in Sources */,
 				A01EFF3C22E0FEA900A7AA7D /* MapView.swift in Sources */,
 				A01EFF3F22E105D300A7AA7D /* PlayerRow.swift in Sources */,
@@ -408,6 +423,7 @@
 				A0C856E722E231A8009FA61A /* SectionHeader.swift in Sources */,
 				A0C856E122E1FAD0009FA61A /* TabbedNavigator.swift in Sources */,
 				A0CDF53222DF99E5004C316F /* HomeView.swift in Sources */,
+				A0C856EC22E239A7009FA61A /* UserData.swift in Sources */,
 				A060E63922E0E872009F9325 /* CoverImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

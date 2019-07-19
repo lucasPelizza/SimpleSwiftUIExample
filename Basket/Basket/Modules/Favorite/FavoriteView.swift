@@ -9,22 +9,27 @@
 import SwiftUI
 
 struct FavoriteView : View {
+    @EnvironmentObject var userData: UserData
+
     var body: some View {
         NavigationView {
             Form {
-                Section(header: SectionHeader(title: "Teams")) {
-                    ForEach((0...5).identified(by: \.self)) { number in
-                        Text("Team \(number)")
-                    }
+                
+                Section(header:SectionHeader(title: "Teams")) {
+                
+                    ForEach(userData.favoriteTeams.identified(by: \.identifier)) { team in
+                        TeamRow(team: team)
+                    }.listRowInsets(EdgeInsets())
+                
                 }
                 
-                Section(header: SectionHeader(title: "Players")) {
-                    ForEach((0...3).identified(by: \.self)) { number in
-                        Text("Player \(number)")
+                Section(header:SectionHeader(title: "Players")) {
+                    ForEach(userData.favoritePlayers.identified(by: \.name)) { player in
+                        PlayerRow(player: player)
                     }
                 }
-                
-            }.navigationBarTitle("Favorite")
+            }
+            .navigationBarTitle("Favorite")
         }
     }
 }
@@ -33,6 +38,8 @@ struct FavoriteView : View {
 struct FavoriteView_Previews : PreviewProvider {
     static var previews: some View {
         FavoriteView()
+            .environmentObject(userData)
     }
 }
 #endif
+

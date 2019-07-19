@@ -13,6 +13,7 @@ struct Team: Codable {
     let identifier: Int
     let name: String
     let logo: String?
+    var country: String
     var latitude: Double
     var longitude: Double
     let players: [Player]
