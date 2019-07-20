@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct HomeView : View {
-    
+
     @ObjectBinding var presenter = HomePresenter()
     
     var body: some View {
