@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct ClubDetail : View {
-    var team: Team
+    
+    @EnvironmentObject var userData: UserData
     @State var isShowingPlayer = false
+    var team: Team
     
     var body: some View {
         VStack {
@@ -25,22 +27,22 @@ struct ClubDetail : View {
                 .padding([.leading, .trailing], 80)
                 .layoutPriority(1)
             
-            VStack(alignment: .leading) {
+            HStack(alignment: .center) {
                 Text(verbatim: team.name)
                     .font(.title)
+                
+                Button(action: onFavorite) {
+                    Image(systemName: self.isFavorite ? "star.fill" : "star")
+                        .foregroundColor(Color.yellow)
+                }
             }
-            .padding()
             
             
             Button(action: { self.isShowingPlayer.toggle() }) {
-                if self.isShowingPlayer {
-                    Text("Hide players list")
-                } else {
-                    Text("Show players list")
-                }
+                Text(isShowingPlayer ? "Hide players list" : "Show players list")
             }.padding(.top, -20)
             
-            if self.isShowingPlayer {
+            if isShowingPlayer {
                 List {
                     ForEach(team.players.identified(by: \.name)) { player in
                         PlayerRow(player: player).frame(height: 140 )
@@ -51,6 +53,18 @@ struct ClubDetail : View {
             }
         }
     }
+    
+    private var isFavorite: Bool {
+        userData.favoriteTeams.contains(where: {$0.identifier == team.identifier})
+    }
+    
+    private func onFavorite() {
+        if isFavorite {
+            userData.favoriteTeams.removeAll(where: {$0.identifier == team.identifier})
+        } else {
+            userData.favoriteTeams.append(team)
+        }
+    }
 }
 
 
@@ -58,9 +72,11 @@ struct ClubDetail : View {
 struct ClubDetail_Previews : PreviewProvider {
     static var previews: some View {
         ClubDetail(team: leaguesData[0].teams[3])
+            .environmentObject(userData)
     }
 }
 #endif
+
 
 
 
