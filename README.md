@@ -21,10 +21,10 @@ Add a team/player like favorite
 Remove a team/player like favorite
 
 #### Home
-![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/tree/master/screenshots/home.gif)
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/master/screenshots/home.gif)
 
 #### Team detail
-![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/tree/master/screenshots/team%20detail.gif)
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/master/screenshots/team%20detail.gif)
 
 #### Favorite
-![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/tree/master/screenshots/favorite.gif)
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/master/screenshots/favorite.gif)
