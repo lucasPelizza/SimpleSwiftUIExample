@@ -20,6 +20,11 @@ Shows list of favorite teams and favorite players
 Add a team/player like favorite
 Remove a team/player like favorite
 
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+#### Home
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/chore/1.0.0.create.readme/screenshots/home.gif)
+
+#### Team detail
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/chore/1.0.0.create.readme/screenshots/team%20detail.gif)
+
+#### Favorite
+![alt text](https://github.com/lucasPelizza/SimpleSwiftUIExample/blob/chore/1.0.0.create.readme/screenshots/favorite.gif)
